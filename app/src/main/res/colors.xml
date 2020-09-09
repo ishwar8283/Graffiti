@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c13302</color>
+    <color name="colorPrimaryDark">#717272</color>
+    <color name="colorAccent">#cb5226</color>
+
+    <color name="colorOrange">#fba412</color>
+    <color name="colorBrown">#c13302</color>
+    <color name="colorBrownSoft">#cb5226</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackUncheck">#717272</color>
+    <color name="colorBlackSoft">#A0A0A0</color>
+
+
+    <color name="colorRed">#EA2E2E</color>
+    <color name="colorRedBoarder">#FF3F3F</color>
+    <color name="colorBackground">#F9F0D5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorText">#000000</color>
+    <color name="colorTextNormal">#88889F</color>
+    <color name="colorYellow">#FFB43F</color>
+    <color name="colorBoarder">#D6D6D6</color>
+    <color name="colorBlackBack">#F5F5F7</color>
+    <color name="colorCartRounded">#0000000D</color>
+    <color name="colorButtonBoarder">#A84E07</color>
+    <color name="colorLine">#EDEDF7</color>
+    <color name="colorCircleWhite">#FFF</color>
+    <color name="colorGreen">#38B924</color>
+    <color name="color_tab">#fff</color>
+    <color name="transferent">#00000000</color>
+    <color name="colorBlackSoftText">#8990A2</color>
+</resources>

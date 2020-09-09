@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+package="com.seeds.economic.assistance.myapplication2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+
+    android:name="com.seeds.economic.assistance.myapplication2.AppAprilBrush"
+    android:allowBackup="true"
+    android:icon="@drawable/paint"
+    android:label="@string/app_name"
+    android:largeHeap="true"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    android:usesCleartextTraffic="true"
+    android:hardwareAccelerated="false"
+    tools:ignore="LockedOrientationActivity">
+
+    <activity android:name="com.seeds.economic.assistance.myapplication2.activity.MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="com.seeds.economic.assistance.myapplication2.activity.ImagePickerActivity"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustPan" />
+    <activity
+        android:name="com.seeds.economic.assistance.myapplication2.activity.BrushSettingsActivity"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustPan" />
+    <activity
+        android:name="com.seeds.economic.assistance.myapplication2.activity.HelpActivity"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustPan" />
+
+    <activity
+        android:name="com.yalantis.ucrop.UCropActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar" />
+
+    <provider
+        android:name="androidx.core.content.FileProvider"
+        android:authorities="com.seeds.economic.assistance.myapplication2.provider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_paths" />
+    </provider>
+
+    <uses-library
+        android:name="org.apache.http.legacy"
+        android:required="false" />
+</application>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>
